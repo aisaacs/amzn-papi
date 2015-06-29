@@ -10,7 +10,7 @@ Install the library with
 
 `npm install amzn-papi`
 
-Require the libray in your application
+Require the library in your application
 
 `var amazon = require('amzn-papi')`
 
@@ -24,7 +24,7 @@ var client = amazon.createClient({
 });
 ```
 
-You can now refer to the Amazon API docs for available methods and available parameters.
+You can now refer to the [Amazon API docs](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/CHAP_OperationListAlphabetical.html) for available methods and parameters.
 Each method will return a Promise.
 
 For example:
